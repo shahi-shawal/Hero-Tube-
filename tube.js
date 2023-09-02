@@ -69,13 +69,14 @@ const displayCategory = (getData)=>{
         const div = document.createElement('div');
         div.className = `` 
         div.innerHTML= `
-                        <div class= "justify-center mt-12 mx-auto">
-                        <div>
-                        <img class= "w-auto h-56" src="./icon.png">
-                        <h2 class="text-4xl font-bold">Oppps!! No Data Found</h2>
-                        </div>
-                        <div>
-                        </div>
+                     
+                       <div class="flex justify-center items-center">
+                       <div class="mt-20 pr-96 mr-[-1500px]">
+                       <img class= "w-auto h-80" src="./icon.png">
+                       <h2 class="text-4xl font-bold">Oppps!! No Data Found</h2>
+                       </div>
+                       </div>
+                
         `
         contetCard.appendChild(div);
 }
